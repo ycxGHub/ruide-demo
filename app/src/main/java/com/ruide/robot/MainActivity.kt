@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         btnMea = findViewById(R.id.btn_meadis)
         tvDis = findViewById(R.id.tv_dis)
         btnMea.setOnClickListener {
+
             Thread {
                 //测量前确定合作目标需要在用户程序中设置
                 //启动测量目前仅支持TMC_DEF_DIST
